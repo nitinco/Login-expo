@@ -9,7 +9,7 @@ const index = () => {
         <Text style={styles.buttonText}>LOGIN</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={() => router.navigate('/auth/signup')} >
-        <Text style={styles.buttonText}>Signup</Text>
+        <Text style={styles.buttonText}>SIGNUP</Text>
       </TouchableOpacity>
     </View>
   )

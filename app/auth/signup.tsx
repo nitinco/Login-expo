@@ -374,7 +374,7 @@ export default function signup() {
     <View style={styles.container}>
       
     <StatusBar backgroundColor='white' />
-    <Image  style={styles.topimg} source={require('../../try.png')} />
+    <Image  style={styles.topimg} source={require('../../fun.png')} />
     <Formik
        initialValues={{ email: '', password: '',fullName:'',confirmPassword:'',mobile:'' }}
       validationSchema={validationSchema}

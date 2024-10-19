@@ -224,7 +224,7 @@ export default function login() {
     <View style={styles.container}>
       
     <StatusBar backgroundColor='white' />
-    <Image  style={styles.topimg} source={require('../../try.png')} />
+    <Image  style={styles.topimg} source={require('../../fun.png')} />
     <Formik
        initialValues={{ email: '', password: '' }}
       validationSchema={validationSchema}
