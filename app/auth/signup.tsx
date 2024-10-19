@@ -397,8 +397,8 @@ export default function signup() {
         <View style={styles.container2}>
         <View style={styles.header}>
         
-          <Text style={styles.title}>signup</Text>
-          <Text style={styles.subtitle}>Please Sign in to continue</Text>
+          <Text style={styles.title}>Create Account</Text>
+          <Text style={styles.subtitle}>Please Fill feilds below</Text>
         </View>
 
         <View style={[styles.inputcontainer,selectedInput === 'input1' && styles.selected, touched.fullName && errors.fullName && styles.errorInput]}>
